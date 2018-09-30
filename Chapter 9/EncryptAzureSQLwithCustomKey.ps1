@@ -1,8 +1,13 @@
-﻿$dbRG = 'PacktPaaSDB';
+#Script is devided in 4 parts, each section should be executed separetely
+
+#Part1
+$dbRG = 'PacktPaaSDB';
 $dbServer = 'packt';
 $server = Set-AzureRmSqlServer -ResourceGroupName $dbRG -ServerName $dbServer -AssignIdentity
 
 
+
+#Part2
 $dbRG = 'PacktPaaSDB';
 $dbServer = 'packt';
 $KeyVaultName = 'PacktKV';
@@ -10,23 +15,20 @@ Set-AzureRmKeyVaultAccessPolicy  -VaultName $KeyVaultName -ObjectId $server.Iden
 
 
 
+#Part3
 $dbRG = 'PacktPaaSDB';
 $dbServer = 'packt';
 $rgName = 'PacktKeyVault';
 $KeyVaultName = 'PacktKV';
 $keyEncryptionKeyName = 'MyKey';
 $keyEncryptionKeyUrl = (Get-AzureKeyVaultKey -VaultName $KeyVaultName -Name $keyEncryptionKeyName).Key.kid;
-
-
-<# Add the key from Key Vault to the server #>
 Add-AzureRmSqlServerKeyVaultKey -ResourceGroupName $dbRG  -ServerName $dbServer -KeyId $keyEncryptionKeyUrl
-
-<# Set the key as the TDE protector for all resources under the server #>
 Set-AzureRmSqlServerTransparentDataEncryptionProtector -ResourceGroupName $dbRG -ServerName $dbServer -Type AzureKeyVault -KeyId $keyEncryptionKeyUrl
-
-<# To confirm that the TDE protector was configured as intended: #>
 Get-AzureRmSqlServerTransparentDataEncryptionProtector -ResourceGroupName $dbRG -ServerName $dbServer
 
+
+
+#Part4
 $dbRG = 'PacktPaaSDB';
 $dbServer = 'packt';
 $dbName = 'Demo'
