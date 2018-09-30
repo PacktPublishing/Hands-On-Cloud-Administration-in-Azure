@@ -1,0 +1,1 @@
+﻿Set-AzureRmKeyVaultAccessPolicy -VaultName 'PacktKV' -ResourceGroupName 'PacktKeyVault' -EnabledForDiskEncryption
