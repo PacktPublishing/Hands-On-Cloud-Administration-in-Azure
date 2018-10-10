@@ -1,2 +1,2 @@
 # Hands-On-Cloud-Administration-in-Azure
-Published by Packt
+Published by, Packt
