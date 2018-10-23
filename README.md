@@ -10,12 +10,12 @@ This is the code repository for [Hands-On Cloud Administration in Azure](https:/
 Azure continues to dominate the public cloud market and grow rapidly thanks to a number of recent innovations. Azure's wide range of services and support has led to a large number of customers switching to Azure cloud.
 
 This book covers the following exciting features:
-Understand the concepts of IaaS and PaaS 
-Learn design patterns for Azure solutions 
-Design data solutions in Azure 
-Explore concepts of hybrid clouds with Azure 
-Implement Azure Security in cloud 
-Create and manage Azure resources with script-based tools 
+* Understand the concepts of IaaS and PaaS 
+* Learn design patterns for Azure solutions 
+* Design data solutions in Azure 
+* Explore concepts of hybrid clouds with Azure 
+* Implement Azure Security in cloud 
+* Create and manage Azure resources with script-based tools 
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/178913496X) today!
 
@@ -23,7 +23,7 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1789
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+All of the code is organized into folders. For example, Chapter03.
 
 The code will look like the following:
 ```
@@ -43,14 +43,11 @@ With the following software and hardware list you can run all code files present
 | -------- | ------------------------------------ | ----------------------------------- |
 | 1-10 | MS SQL Server 2016 | Windows Server 2016 |
 |  | Hyper-V | Windows, Mac OS X, and Linux (Any) |
-|  | Active Directory | Windows, Mac OS X, and Linux (Any) |
-|  | PowerShell | Windows, Mac OS X, and Linux (Any) |
-|  | Microsoft Azure | Windows, Mac OS X, and Linux (Any) |
-|  | Azure PowerShell | Windows, Mac OS X, and Linux (Any) |
-|  | Azure CLI | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
+|  | Active Directory |  |
+|  | PowerShell |  |
+|  | Microsoft Azure |  |
+|  | Azure PowerShell | |
+|  | Azure CLI |  |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789134964_ColorImages.pdf).
 
@@ -59,36 +56,9 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Architecting Microsoft Azure Solutions - Exam Guide 70-535 [[Packt]](https://www.packtpub.com/virtualization-and-cloud/architecting-microsoft-azure-solutions-exam-guide-70-535?utm_source=github&utm_medium=repository&utm_campaign=9781788991735 ) [[Amazon]](https://www.amazon.com/dp/1788991737)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
 ## Get to Know the Author
 **Mustafa Toroman**
 is a program architect and senior system engineer with Authority Partners. He has years of experience in designing and monitoring infrastructure solutions, and has lately been focused on designing new solutions in the cloud and migrating existing solutions to the cloud. He is very interested in DevOps processes and he's also an Infrastructure-as-Code enthusiast. Mustafa has over 30 Microsoft certificates and has been a Microsoft Certified Trainer (MCT) for the last 6 years. He often speaks at international conferences (such as MS Ignite, European Collaboration Summit, and IT/Dev Connections) about cloud technologies, and has been named an MVP for Microsoft Azure for the last three years in a row.
-
-****
-0
-
-****
-0
-
-****
-0
-
-****
-0
-
-## Other books by the authors
-[]()
-
-[]()
-
-[]()
-
-[]()
-
-[]()
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
