@@ -42,7 +42,7 @@ With the following software and hardware list you can run all code files present
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
 | 1-10 | MS SQL Server 2016 | Windows Server 2016 |
-|  | Hyper-V | Windows, Mac OS X, and Linux (Any) |
+|  | Hyper-V |  |
 |  | Active Directory |  |
 |  | PowerShell |  |
 |  | Microsoft Azure |  |
