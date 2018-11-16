@@ -1,6 +1,6 @@
 # Hands-On Cloud Administration in Azure
 
-<a href="https://www.packtpub.com/virtualization-and-cloud/hands-cloud-administration-azure?utm_source=github&utm_medium=repository&utm_campaign=9781789134964 "><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B10737_MockupCover_mew.png" alt="Hands-On Cloud Administration in Azure" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/virtualization-and-cloud/hands-cloud-administration-azure?utm_source=github&utm_medium=repository&utm_campaign=9781789134964 "><img src="htthttps://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/cover_13.png" align="right"></a>
 
 This is the code repository for [Hands-On Cloud Administration in Azure](https://www.packtpub.com/virtualization-and-cloud/hands-cloud-administration-azure?utm_source=github&utm_medium=repository&utm_campaign=9781789134964 ), published by Packt.
 
